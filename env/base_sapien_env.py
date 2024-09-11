@@ -36,7 +36,7 @@ class BaseEnv:
         scene_config.solver_velocity_iterations = 1
 
         if self.renderer_type == "sapien" :
-            self.renderer = sapien.SapienRenderer(**renderer_kwargs)  # Create a Vulkan renderer
+            self.renderer = sapien.VulkanRenderer(**renderer_kwargs)  # Create a Vulkan renderer
             self.renderer_context: R.Context = self.renderer._internal_context
         elif self.renderer_type == "client" :
             scene_config.disable_collision_visual = True

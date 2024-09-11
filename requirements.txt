@@ -140,9 +140,9 @@ trimesh==3.21.0
 # Werkzeug==2.2.3
 # widgetsnbextension==4.0.5
 # zipp==3.14.0
-sapien==2.2.1
+sapien==2.1
 six==1.16.0
 gym==0.26.2
-mplib==0.0.8
+mplib==0.0.9
 ujson==5.7.0
 ipdb

@@ -107,7 +107,7 @@ def _worker(
 # Define a simple interface for RL
 class MultiVecEnv() :
 
-    def __init__(self, env_class_list, start_method: Optional[str] = None) :
+    def __init__(self, env_class_list, start_method: Optional[str] = "spawn") :
 
         super().__init__()
 

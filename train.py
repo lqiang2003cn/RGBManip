@@ -471,3 +471,5 @@ if __name__ == "__main__" :
 
     my_app()
     pass
+
+# python train.py dataset=cabinet_train task=open_cabinet pose_estimator=adapose_cabinet manipulation=open_cabinet controller=gt_pose train=controller
